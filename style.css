@@ -1,0 +1,155 @@
+*{
+    background-color: #101013;
+}
+.welcome{
+    text-align: center;
+    color: rgb(253, 250, 255);
+}
+.nav{
+   display: flex;
+   gap: 40px;
+   justify-content: center;
+   
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(72, 190, 206);
+    font-size: 18px;
+}
+.nav a:hover{
+    color: rgb(229, 86, 112);
+    text-decoration: underline;
+    color: #00bfff;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.dhakaimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 62%; 
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+.about {
+  padding: 40px;
+  color: #fefafa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.2em;
+}
+
+.about p {
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 15px;
+  text-align: justify;
+}
+.gallery {
+  padding: 40px;
+  color: #fefafa;
+  font-family: 'Segoe UI', sans-serif;
+}
+.gallery h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.2em;
+}
+/* Gallery */
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  width: 50%;
+  margin : auto auto;
+  margin-top: 50px;
+}
+
+
+.gallery-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.caption {
+  padding: 10px;
+  font-size: 1em;
+  color: #fffefe;
+  text-align: center;
+}
+
+/* MAP Style Start */
+.map-section {
+  padding: 40px;
+  /* background-color: #f0f8ff; */
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.map-section h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #fff9f9;
+}
+
+.map-description {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 1.1em;
+  color: #e6f0f5;
+}
+
+.map-container {
+  max-width: 900px;
+  margin: 0 auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+/* MAP STYLE END */
+.site-footer {
+  background-color: #222;
+  color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.site-footer p {
+  margin: 5px 0;
+  font-size: 0.95em;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #00bfff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 0.95em;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
